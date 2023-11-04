@@ -1,0 +1,82 @@
+.cart
+{
+    display: flex;
+   flex-direction: row;
+   position: relative;
+}
+
+.cart-items {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-top: 30px;
+    column-gap: 15px;
+    padding: 5px;
+    width: 65%;
+  }
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 25px;
+    height: 400px;
+  
+  }
+  .cart-item img {
+    width: 250px;
+    height: 250px;
+  }
+  .cart-details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-btn {
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    margin-top: 7px;
+    cursor: pointer;
+  }
+
+  .checkout-list
+  {
+    width: 25%;
+    background-color: black;
+    margin-left: 100px;
+    height: 45vw;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    
+
+  }
+  .product-prizes
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-item
+  {
+    display: flex;
+    padding: 3px;
+    justify-content:space-between;
+    
+    
+  }
+  .total
+  {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid white;
+    margin-top: 4px;
+    margin-bottom: 7px;
+  }
+  .nav-items > a
+  {
+    text-decoration: none;
+    color: white;
+  }
+  
